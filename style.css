@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.shape2{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 8px;
+    align-items: center;
+    rotate: 45deg;
+}
+
+
+.shape3{
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 8px;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+#round:hover{
+    background-color: green;
+}
+
+#diamond h1{
+    rotate: -45deg;
+}
+
+#diamond:hover{
+    background-color: blue;
+}
+
+#square:hover{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
